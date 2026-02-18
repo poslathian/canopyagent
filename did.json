@@ -1,0 +1,22 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1"
+  ],
+  "id": "did:web:poslathian.github.io:canopyagent",
+  "verificationMethod": [
+    {
+      "id": "did:web:poslathian.github.io:canopyagent#atproto",
+      "type": "Multikey",
+      "controller": "did:web:poslathian.github.io:canopyagent",
+      "publicKeyMultibase": "zQ3shf8qVzKh5SMKThKN4H2zJ2k5tmP9KeunqhXapvitPhwVX"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://bsky.social"
+    }
+  ]
+}

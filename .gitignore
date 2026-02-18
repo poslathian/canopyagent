@@ -1,0 +1,6 @@
+# ATproto private keys
+*.atproto.key
+.atproto.key
+.env
+.env.*
+!.env.example
